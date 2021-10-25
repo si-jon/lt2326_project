@@ -21,4 +21,53 @@
     </one-of>
   </action>
 
+<!-- Individuals -->
+  <individual name="tempo_andante">
+    <one-of>
+      <item>andante</item>
+    </one-of>
+  </individual>
+
+  <individual name="tempo_allegro">
+    <one-of>
+      <item>allegro</item>
+    </one-of>
+  </individual>
+
+  <individual name="tempo_presto">
+    <one-of>
+      <item>presto</item>
+    </one-of>
+  </individual>
+
+  <individual name="meter_duple">
+    <one-of>
+      <item>duple</item>
+    </one-of>
+  </individual>
+
+  <individual name="meter_triple">
+    <one-of>
+      <item>triple</item>
+    </one-of>
+  </individual>
+
+  <individual name="meter_quadruple">
+    <one-of>
+      <item>quadruple</item>
+    </one-of>
+  </individual>
+
+  <individual name="meter_type_simple">
+    <one-of>
+      <item>simple</item>
+    </one-of>
+  </individual>
+
+  <individual name="meter_type_compound">
+    <one-of>
+      <item>compound</item>
+    </one-of>
+  </individual>
+
 </grammar>

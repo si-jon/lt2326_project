@@ -1,3 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ontology name="MetronomeOntology">
+
+    <sort name="tempo" dynamic="true"/>
+    <sort name="meter" dynamic="true"/>
+    <sort name="meter_type" dynamic="true"/>
+
+    <predicate name="set_tempo" sort="tempo"/>
+    <predicate name="set_meter" sort="meter"/>
+
+    <individual name="tempo_andante" sort="tempo"/>
+    <individual name="tempo_allegro" sort="tempo"/>
+    <individual name="tempo_presto" sort="tempo"/>
+
+    <individual name="meter_duple" sort="meter"/>
+    <individual name="meter_triple" sort="meter"/>
+    <individual name="meter_quadruple" sort="meter"/>
+
+    <individual name="meter_type_simple" sort="meter_type"/>
+    <individual name="meter_type_compound" sort="meter_type"/>
+
 </ontology>

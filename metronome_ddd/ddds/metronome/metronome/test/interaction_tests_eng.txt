@@ -1,2 +1,32 @@
 --- main menu
 S> What would you like to do?
+
+--- start metronome (incremental)
+S> What would you like to do?
+U> Start the metronome
+S> What tempo?
+U> Allegro
+S> What metre?
+U> Simple Quadruple
+
+--- start metronome (one-shot)
+S> What would you like to do?
+U> Start the metronome in adagio and simple triple meter
+
+--- start metronome (over answering)
+S> What would you like to do?
+U> Start the metronome in duple meter
+S> WHat tempo?
+U> 120 beats per minute
+
+--- increase tempo
+S> What would you like to do?
+U> Start the metronome in adagio and simple triple meter
+S>
+U> Increase tempo
+
+--- decrease tempo
+S> What would you like to do?
+U> Start the metronome in adagio and simple triple meter
+S>
+U> Decrease tempo
